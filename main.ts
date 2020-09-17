@@ -1,8 +1,8 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showString("ºC =")
     basic.showNumber(celsius)
-    basic.showString("ºK =")
+    basic.showString("ºC =")
     basic.showNumber(kelvin)
+    basic.showString("ºK")
 })
 let kelvin = 0
 let celsius = 0
